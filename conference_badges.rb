@@ -3,6 +3,6 @@ batch_badge_creator(array)
   name = i
   room = i.each_with_index + 1
   
-  "Hello, _____! You'll be assigned to room _____!"
+  "Hello, #{name}! You'll be assigned to room #{room}!"
 end 
 end  
